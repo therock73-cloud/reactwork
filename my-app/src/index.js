@@ -8,11 +8,13 @@ ReactDom.render(
   //first method 
   //using <div> tag
   //second method of using multipal jsx eleiments in render function by usng array
-[
-<h1>hellow from saurabh upadhyay to react</h1>,
-<p>now i have lern to render multipal jsx eleiment by using div tag!! </p>,
-<h2>now you can use any number of jsx eliments </h2>,
-],
+<>
+<h1>hellow from saurabh upadhyay to react</h1>
+<p>now i have lern to render multipal jsx eleiment by using div tag!! </p>
+<h2>now you can use any number of jsx eliments </h2>
+</>,
+// React.Fragment is used for remove axtra div  which is create becouse of div tag 
+//we can also use <> jsx eliments </> in placeof <div> or array 
 
   document.getElementById('root')
   );

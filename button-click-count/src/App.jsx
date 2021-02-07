@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 const App = () =>{
-    const [count,setCount] = useState(0);
+    const [count,setCount] = useState(3);
     const IN = () =>{
         setCount(count +1);
     };

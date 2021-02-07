@@ -4,18 +4,6 @@ import './index.css';
 import Sdata from "./Sdata";
 import Card from "./Cards"
 
-// function ncard(val) {
-//   return(
-//     <Card
-//     imgsrc={val.imgsrc}
-//     tittle={val.tittle}
-//     sname={val.sname}
-//     link={val.link}
-//   />
-
-//   )
-
-// }
 
 
 ReactDOM.render(

@@ -1,0 +1,22 @@
+
+div{
+  background-color: aquamarine;
+  justify-items: center;
+  align-items: center;
+  display: flex;
+}
+
+
+
+
+.button{
+  padding: 15px 23px;
+  background-color: blueviolet;
+  color: antiquewhite;
+  border: 2px solid #ecf3f1;
+  outline: none;
+  border-radius: 5px;
+  text-transform: uppercase;
+  cursor: pointer;
+
+}
